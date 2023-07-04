@@ -65,7 +65,7 @@ public class XavfsizlikSozlamalari extends WebSecurityConfigurerAdapter {
         mailSender.setHost("smtp.gmail.com");
         mailSender.setPort(587);
         mailSender.setUsername("turdinazarovasqar355@gmail.com");
-        mailSender.setPassword("dkeoyizqzlluzaws");
+        mailSender.setPassword("");
         Properties props = mailSender.getJavaMailProperties();
         props.put("mail.transport.protocol","smtp");
         props.put("mail.smtp.auth","true");
